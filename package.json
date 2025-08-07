@@ -4,7 +4,7 @@
     "description": "Notes &amp; Codes for 100 Days of DL by CampusX",
     "main": "md-to-html.js",
     "scripts": {
-        "build": "node md-to-html.js notes dist \"#100Days_of_DL\""
+        "build": "node md-to-html.js notes dist \"#100Days_of_DL\" true"
     },
     "repository": {
         "type": "git",
@@ -13,12 +13,13 @@
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "type": "commonjs",
+    "type": "module",
     "bugs": {
         "url": "https://github.com/avionics18/100-days-of-deep-learning/issues"
     },
     "homepage": "https://github.com/avionics18/100-days-of-deep-learning#readme",
     "dependencies": {
-        "marked": "^16.1.1"
+        "marked": "^16.1.1",
+        "marked-gfm-heading-id": "^4.1.2"
     }
 }

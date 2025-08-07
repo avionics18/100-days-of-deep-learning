@@ -62,3 +62,9 @@ The modules are as follows:
 3. **Recurrent Neural Networks (RNN)**
 4. **Autoencoders & GAN**
 5. **Object Detection & Image Segmentation**
+
+## Pre-requisites
+
+- Python
+- Machine Learning Basics (Overview)
+- Linear Algebra (Youtube: 3Blue1Brown)
