@@ -4,7 +4,9 @@
     "description": "Notes &amp; Codes for 100 Days of DL by CampusX",
     "main": "md-to-html.js",
     "scripts": {
-        "build": "node md-to-html.js notes dist \"#100Days_of_DL\" true"
+        "build": "node md-to-html.js notes dist \"#100Days_of_DL\" true",
+        "serve": "browser-sync dist -w",
+        "clean": "rm -rf dist"
     },
     "repository": {
         "type": "git",
